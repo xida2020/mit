@@ -1,0 +1,32 @@
+# ==============================================================================
+# Qiskit Curriculum Outline
+# ==============================================================================
+
+
+getting-started:
+  title: 0. Getting Started
+  color: 662d91
+
+states:
+  title: 1. Quantum States and Qubits
+  color: 553898
+
+gates:
+  title: 2. Multiple Qubits and Entanglement
+  color: 44449f
+
+algorithms:
+  title: 3. Quantum Protocols and Quantum Algorithms
+  color: 334fa7
+
+applications:
+  title: 4. Quantum Algorithms for Applications
+  color: 225aae
+
+quantum-circuits:
+  title: 5. Investigating Quantum Hardware Using Quantum Circuits
+  color: 1166b5
+
+microwave-pulses:
+  title: 6. Investigating Quantum Hardware Using Microwave Pulses
+  color: 0071bc
