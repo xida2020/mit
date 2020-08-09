@@ -1,14 +1,14 @@
 # ==============================================================================
-# Qiskit Curriculum Outline
-# ==============================================================================
+# Qiskit　课程大纲
+# # ==============================================================================
 
 
 getting-started:
-  title: 0. Getting Started
+  title: 0. 从这里开始
   color: 662d91
 
 states:
-  title: 1. Quantum States and Qubits
+  title: 1. Quantum量子 States and Qubits
   color: 553898
 
 gates:
