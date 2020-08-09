@@ -1,41 +1,29 @@
-# Learn Quantum Computation using Qiskit
+# 使用Qiskit学习量子计算
 
-Greetings from the Qiskit Community team! This textbook is a university quantum
-algorithms/computation course supplement based on Qiskit to help learn:
+欢迎来到Qiskit社区! 本电子书是大学量子算法或计算课程基于Qiskit的学习附加资:
 
-* The mathematics behind quantum algorithms
-* Details about today's non-fault-tolerant quantum devices
-* Writing code in Qiskit to implement quantum algorithms on IBM's cloud quantum systems
+* 量子背后的数学
+* 在IBM云量子系统上的量子算法
 
+## 从这里开始
 
-## Getting Started
+运行服务器之前,　你需要在电脑上安装 Node.js 和 NPM. 按照 [官方页面](https://nodejs.org)上的指导安装.
 
-Before running the development server, you need to install Node.js and NPM on your computer. Follow
-the instructions on the [official page](https://nodejs.org).
+ forking 并克隆本仓库后, 用命令 `npm install`安装所有的依赖包.
 
-After forking and cloning this repository, install all dependencies using `npm install`.
-
-Now you can start a local development server by running `npm start`. Wait for the assets to be
-compiled and then open [localhost:5000](http://localhost:5000). The server will automatically watch
-for file changes.
+现在你可以运行`npm start`命令开启本地服务.等待资产编译后打开[localhost:5000](http://localhost:5000).服务器将自动监听到文件的文件变化.
 
 
-## Course Structure
+## 课程机构
 
-Every course is a subfolder in the [content](content) directory. Every course consists of a few
-different components:
+每个课程都是在[content](content)目录下的文件夹.每个课程由下面不同组件组成:
 
-* `content.md` contains the source code and metadata for a course. It is written in a [custom
-  extension](https://mathigon.io/markdown) of [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-* `functions.ts` contains all course-specific TypeScript code.
-* `styles.less` contains all course-specific styles, in [LESS](http://lesscss.org/) format.
-* `hints.yaml` (optional) contains any messages that can be sent by Mathigon's
-  virtual personal tutor.
+* `content.md` 包含课程资源代码和数据. 它由[custom
+  extension](https://mathigon.io/markdown)  [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)格式写成.
+* `functions.ts` 包含所有课程指定的TypeScript代码.
+* `styles.less` 包含所有课程指定的styles, 为[LESS](http://lesscss.org/)格式.
+* `hints.yaml` (可选)包含由Mathigon之虚拟个人家教传达的任何信息.
 
-The [shared directory](content/shared) contains biographies, glossary and assets used by multiple
-courses.
+[共享目录](content/shared)包含多课程使用人物传记、专业术语和课程资产.
 
-Every course is divided into multiple steps, each with a unique ID. These IDs are used as function
-names in `functions.ts` when exporting the setup code for every section. Every function gets called
-with a `$step` argument, when the corresponding step is revealed for the first time. Check
-[types.d.ts](content/shared/types.d.ts) for the available properties and methods.
+每个课程分为若干步骤,每一步带有唯一的ID. 这些ID在`functions.ts`当每节函数输出借口时被使用到.　每个函数获得一个名为`$step`的参数,相应步骤在第一时间被解析到.在文件[types.d.ts](content/shared/types.d.ts)有可供使用的性质与方法，可查看使用之.
